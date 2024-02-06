@@ -1,0 +1,37 @@
+.nabvar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: aliceblue;
+    padding: 15px 25px;
+    height: 100px;
+    width: 100vh;
+}
+.bannerbtn{
+    padding:15px 25px;
+    background-color: blueviolet;
+    color: aliceblue;
+    font-size: 20px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.bannerbtn:hover{
+    background-color:white;
+    color: blueviolet;
+}
+.navlist{
+    display: flex;
+    flex-direction: column;
+    column-gap: 10px;
+}
+.navlist li a{
+    color: blueviolet;
+    padding: 10px 15px;
+    display: inline-block;
+    border-radius: 15px;
+}
+.navlist li a:active{
+    background-color: blueviolet;
+    color: aliceblue;
+}
