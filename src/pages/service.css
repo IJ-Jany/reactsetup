@@ -1,0 +1,16 @@
+.service{
+    padding: 15px 20px;
+    background-color: aliceblue;
+    margin-top: 30px;
+}
+.servicecard{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+.card{
+    width: 250px;
+    background-color: white;
+    border-bottom: 5px solid #007FFF;
+}

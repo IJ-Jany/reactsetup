@@ -1,0 +1,23 @@
+.stepmain h1,p{
+ width: 500px;
+ padding: 10px;
+}
+.stepmain{
+    margin-top: 200px;
+}
+.steptitle{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row;
+}
+.stepname p{
+    width: 420px;
+}
+.stepnumber{
+    border: 1px solid black;
+    padding: 15px 15px;
+}
+.step{
+    margin-top: 30px;
+}

@@ -1,15 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Protest+Revolution&display=swap');
+
+.navlogo h3{
+    font-family: 'Protest Revolution', sans-serif;
+    color: #007FFF;
+}
 .nabvar{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     background-color: aliceblue;
     padding: 15px 25px;
-    height: 100px;
-    width: 100vh;
+    height: 80px;
+    width: 100%;
 }
 .bannerbtn{
     padding:15px 25px;
-    background-color: blueviolet;
+    background-color: #007FFF;
     color: aliceblue;
     font-size: 20px;
     border: none;
@@ -18,20 +24,23 @@
 }
 .bannerbtn:hover{
     background-color:white;
-    color: blueviolet;
+    color: #007FFF;
 }
 .navlist{
     display: flex;
-    flex-direction: column;
-    column-gap: 10px;
+    flex-direction: row;
+    gap: 10px;
+}
+.navlist li h5{
+    color: #007FFF;
 }
 .navlist li a{
-    color: blueviolet;
+    color: #007FFF;
     padding: 10px 15px;
     display: inline-block;
     border-radius: 15px;
 }
 .navlist li a:active{
-    background-color: blueviolet;
+    background-color: #007FFF;
     color: aliceblue;
 }

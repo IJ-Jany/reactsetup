@@ -1,0 +1,33 @@
+.footer{
+    background-color: aliceblue;
+    padding: 20px 30px;
+}
+.logo h3{
+    font-family: 'Protest Revolution', sans-serif;
+    color: #007FFF;
+}
+.logo p{
+    color: #007FFF;
+}
+.footer1st{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.social{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 5px;
+}
+.social li{
+    color: #007FFF;
+}
+.footerlast{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.footerlast h3,h5{
+    color: #007FFF;
+}
