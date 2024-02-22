@@ -1,0 +1,73 @@
+.support, .discount, .guide{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px 0;
+}
+.logo{
+    background-color: aliceblue;
+   
+}
+.logo svg{
+    color: #007FFF;
+}
+.longimg{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 40px;
+}
+.choose{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.longimg1, .longimg2{
+    width: 150px;
+    height: 200px;
+    position: relative;
+}
+.longimg1::after{
+    content: "";
+    position: absolute;
+    width: 50px;
+    height: 180px;
+    border: 2px solid black;
+    right: -20px;
+    bottom: -10px;
+    
+}
+.longimg2::after{
+    content: "";
+    position: absolute;
+    width: 50px;
+    height: 180px;
+    border: 2px solid black;
+    left: -20px;
+    bottom: -10px;
+}
+.longimg1 img, .longimg2 img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    overflow: hidden;
+}
+.wideimg{
+    width: 400px;
+    height: 150px;
+    margin-top: 20px;
+}
+.wideimg img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    overflow: hidden;
+}
+h3{
+    color: black;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

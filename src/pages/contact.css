@@ -1,0 +1,41 @@
+.contactbox{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.logo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.details{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+.contactitems{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.inputs{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.contactbtn{
+    background-color: #007FFF;
+    color: white;
+    margin-top: 10px;
+    border: none;
+    padding: 10px;
+}
+.contactbtn:hover{
+    background-color: white;
+    color: #007FFF;
+}

@@ -4,6 +4,7 @@ import { FaHotel } from "react-icons/fa6";
 import { MdCardTravel } from "react-icons/md";
 import './service.css'
 import Sidebar from '../components/Sidebar';
+import Footer from '../components/layout/Footer';
 
 const Service = () => {
   return (
@@ -11,7 +12,9 @@ const Service = () => {
     <Sidebar/>
     <div className='service'>
     <h1>Our Service For You</h1>
-     <p>We bring evrywhere alivewith tours that cover and look buyond the highlights:revealing hidden gems and offering cultural encounters that build into multi-faced and compeling travel experiences.</p>
+    <div className="servicepara">
+    <p>We bring evrywhere alivewith tours that cover and look buyond the highlights:revealing hidden gems and offering cultural encounters that build into multi-faced and compeling travel experiences.</p>
+    </div>
       <div className='servicecard'>
         <div className='card'>
         <BsTicketPerforatedFill />
@@ -30,6 +33,7 @@ const Service = () => {
         </div>
      </div> 
     </div>
+    <Footer/>
     </>
   )
 }

@@ -14,3 +14,14 @@
     background-color: white;
     border-bottom: 5px solid #007FFF;
 }
+.servicepara{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.card p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+}

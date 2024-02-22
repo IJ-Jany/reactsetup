@@ -1,0 +1,23 @@
+.blogdetails{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.blogcard{
+    width: 200px;
+    height: 270px;
+}
+.blogimg{
+    width: 200px;
+    height: 150px;
+}
+.blogimg img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    overflow: hidden;
+}
+.blogitems p{
+    width: 200px;
+    font-size: 10px;
+}
