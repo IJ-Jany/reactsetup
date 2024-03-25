@@ -1,7 +1,7 @@
 .service{
     padding: 15px 20px;
     background-color: aliceblue;
-    margin-top: 30px;
+    margin: 30px 0;
 }
 .servicecard{
     display: flex;
@@ -12,7 +12,7 @@
 .card{
     width: 250px;
     background-color: white;
-    border-bottom: 5px solid #007FFF;
+    border-bottom: 5px solid #006600;
 }
 .servicepara{
     display: flex;

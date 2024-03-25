@@ -69,7 +69,7 @@
     position: absolute;
     width:2px;
     height: 80px;
-    background-color: blue;
+    background-color: #006600;
     right: 50%;
     bottom: -80px;
 }
@@ -78,7 +78,7 @@
     position: absolute;
     width:2px;
     height: 50px;
-    background-color: blue;
+    background-color: #006600;
     right: 50%;
     bottom: -50px;
 }

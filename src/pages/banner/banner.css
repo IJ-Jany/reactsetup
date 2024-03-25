@@ -1,0 +1,34 @@
+.banner{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.bannerimgbox{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.banner1, .banner2{
+    height: 200px;
+    width: 150px;
+}
+.banner1 img, .banner2 img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    overflow: hidden;
+}
+.banner1{
+    margin-bottom: 15px;
+}
+.bannerimgbox2{
+    margin-left: 20px;
+    height: 200px;
+    width: 150px;
+}
+.bannerimgbox2 img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    overflow: hidden;
+}

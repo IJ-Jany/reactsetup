@@ -2,7 +2,7 @@
 
 .navlogo h3{
     font-family: 'Protest Revolution', sans-serif;
-    color: #007FFF;
+    color: #006600;
 }
 .nabvar{
     display: flex;
@@ -14,17 +14,17 @@
     width: 100%;
 }
 .bannerbtn{
-    padding:15px 25px;
-    background-color: #007FFF;
+    padding:10px 15px;
+    background-color: #006600;
     color: aliceblue;
-    font-size: 20px;
+    font-size: 15px;
     border: none;
-    border-radius: 10px;
+    border-radius: 8px;
     cursor: pointer;
 }
 .bannerbtn:hover{
     background-color:white;
-    color: #007FFF;
+    color: #006600;
 }
 .navlist{
     display: flex;
@@ -32,15 +32,22 @@
     gap: 10px;
 }
 .navlist li h5{
-    color: #007FFF;
+    color: #006600;
 }
 .navlist li a{
-    color: #007FFF;
+    color: #006600;
     padding: 10px 15px;
     display: inline-block;
     border-radius: 15px;
 }
 .navlist li a:active{
-    background-color: #007FFF;
+    background-color: #006600;
     color: aliceblue;
+}
+.navbtn{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 8px;
+
 }

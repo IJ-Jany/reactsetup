@@ -4,10 +4,10 @@
 }
 .logo h3{
     font-family: 'Protest Revolution', sans-serif;
-    color: #007FFF;
+    color: #006600;
 }
 .logo p{
-    color: #007FFF;
+    color: #006600;
 }
 .footer1st{
     display: flex;
@@ -21,7 +21,7 @@
     gap: 5px;
 }
 .social li{
-    color: #007FFF;
+    color: #006600;
 }
 .footerlast{
     display: flex;
@@ -29,5 +29,5 @@
     justify-content: space-between;
 }
 .footerlast h3,h5{
-    color: #007FFF;
+    color: #006600;
 }

@@ -5,10 +5,13 @@ import { MdOutlineWifiCalling3 } from "react-icons/md";
 import './contact.css'
 import Box from '@mui/material/Box';
 import TextField from '@mui/material/TextField';
+import Sidebar from '../../src/components/Sidebar'
+import Footer from '../../src/components/layout/Footer'
 
 const Contact = () => {
   return (
     <>
+    <Sidebar/>
    <div className="contact">
     <h1>Contact Our Agency</h1>
     <div className="contactbox">
@@ -38,7 +41,7 @@ const Contact = () => {
       </div>
       <div className="message">
      <h3>Get In Touch</h3>
-     <p>For Any Kind Of Information,Do Message us .We are Eagerly Waiting for Ypur Response</p>
+     <p>For Any Kind Of Information,Do Message us .We are Eagerly Waiting for Your Response</p>
      <div className="inputs">
      <TextField id="outlined-basic" label="Your Name" variant="outlined" />
      <TextField id="outlined-basic" label="Your Email" variant="outlined" />
@@ -50,6 +53,7 @@ const Contact = () => {
       </div>
     </div>
    </div>
+   <Footer/>
     </>
 
 

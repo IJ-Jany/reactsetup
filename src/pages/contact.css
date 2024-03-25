@@ -1,3 +1,6 @@
+.contact{
+    padding: 20px 0;
+}
 .contactbox{
     display: flex;
     align-items: center;
@@ -29,7 +32,7 @@
     gap: 10px;
 }
 .contactbtn{
-    background-color: #007FFF;
+    background-color: #006600;
     color: white;
     margin-top: 10px;
     border: none;
@@ -37,5 +40,32 @@
 }
 .contactbtn:hover{
     background-color: white;
-    color: #007FFF;
+    color: #006600;
+}
+.chatdetails svg{
+    color: #006600;
+}
+.chatdetails h4,h6{
+    color: black;
+}
+.chatdetails h6{
+    color: black;
+}
+.officedetails svg{
+    color: #006600;
+}
+.officedetails  h4{
+    color: black;
+}
+.officedetails h6{
+    color: black;
+}
+.calldetails svg{
+    color: #006600;
+}
+.calldetails h4{
+    color: black;
+}
+.calldetails h6{
+    color: black;
 }

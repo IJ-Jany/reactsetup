@@ -1,7 +1,7 @@
 import React from 'react'
 import './layout/layout.css'
 import { IoHome } from "react-icons/io5";
-import { FcAbout } from "react-icons/fc";
+import { BiSolidCommentDetail } from "react-icons/bi";
 import { IoBagAddSharp } from "react-icons/io5";
 import { IoMdContact } from "react-icons/io";
 import { Link, NavLink } from 'react-router-dom';
@@ -22,7 +22,7 @@ const Sidebar = () => {
                 <h5>Home</h5>
                 </li>
                 <li>
-                    <NavLink to="/about"><FcAbout /></NavLink>
+                    <NavLink to="/about"><BiSolidCommentDetail /></NavLink>
                 <h5>About</h5>
                 </li>
                 <li>
@@ -35,11 +35,13 @@ const Sidebar = () => {
                 </li>
             </ul>
          </div>
+         <div className="navbtn">
          <div>
             <button className='bannerbtn'>Signup</button>
          </div>
          <div>
             <button className='bannerbtn'>Register</button>
+         </div>
          </div>
     </div>
   </>
